@@ -1,0 +1,245 @@
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 100px;
+}
+.about h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+}
+ .about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243d;
+  margin-top: 40px;
+}
+ .btn-red {
+  background: #ff6464;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  padding: 5px 10px;
+  margin: 50px 0px;
+}
+
+/* recent post*/
+.recent-post {
+  background: #edf7fa;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.header p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243d;
+}
+.header a {
+  color: #00a8cc;
+}
+.recent-post-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 35px;
+}
+.recent-post-detail {
+  background-color: white;
+  padding: 20px 15px;
+}
+.label ::after {
+  content: "";
+  left: 100%;
+  border: 1px solid black;
+}
+.recent-post-detail h4 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #21243d;
+}
+.recent-post-detail p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243d;
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0px;
+}
+.date p::after {
+  position: absolute;
+  content: "|";
+  margin: 0px 22px;
+}
+/*featured work*/
+.feature-work1 {
+  display: flex;
+  max-width: 1152px;
+  gap: 30px;
+}
+.dashboard-detail {
+  display: flex;
+  gap: 40px;
+  margin: 10px 0px;
+}
+.card-container h4 {
+  color: #21243d;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+label {
+  background: #142850;
+  border-radius: 16px;
+  color: white;
+  padding: 2px 10px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.card-detail h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #21243d;
+}
+.card-detail h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8695a4;
+}
+.card-detail p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243d;
+  margin-top: 30px;
+}
+hr {
+  margin: 20px 0px;
+}
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+}
+footer h5 {
+  margin-top: 20px;
+  color: #21243d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+footer .fa {
+  font-size: 30px;
+}
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0px 16px;
+  }
+  .hero-section-1{
+    padding-top: 100px;
+    text-align: center;
+  }
+  .hero-section-1 .about h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .hero-section-1 .about {
+    flex-direction: column;
+    margin: 0px;
+    gap: 30px;
+    padding: 0px;
+  }
+  .person-photo {
+    order: 1;
+  }
+  .personal-detail {
+    order: 2;
+  }
+  .personal-detail h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .header p {
+    margin: auto;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .date {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-size: 16px;
+  }
+  .header a {
+    display: none;
+  }
+  .recent-post {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+  }
+  .recent-post-container {
+    flex-direction: column;
+  }
+  .card-container {
+    padding: 0px;
+  }
+  .feature-work1 {
+    flex-direction: column;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  .items {
+    display: none;
+    margin-top: 50px;
+   
+  }
+  .menu-item {
+    padding: 0px;
+  }
+  .menu-icon-container {
+    display: block;
+    float: right;
+  }
+  .menu-icon-container .fa-close {
+    display: none;
+  }
+}

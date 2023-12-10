@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  font-family: "Heebo", sans-serif;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243d;
+}
+a {
+  color: black;
+}
+h3 {
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #21243d;
+}
+.menu-item {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.nav-items {
+  padding: 20px;
+}
+header .menu-icon-container {
+  display: none;
+}
+header .nav-items {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+}
+header .nav-items a {
+  padding: 0px 10px;
+}
+.red {
+  color: #ff7c7c;
+}
+.work-page .container h1 {
+  padding-bottom: 20px;
+}
+.work-detail .container .title {
+  max-width: 506px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #21243d;
+}
+.work-detail .container img {
+  width: 100%;
+  margin: 20px 0px;
+}
+.work-detail .dashboard-detail {
+  align-items: center;
+}
+.work-detail .dashboard-detail label {
+  background: #ff7c7c;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 60px;
+  padding: 2px 5px;
+  color: #ffffff;
+}
+.container {
+ margin: auto;
+  max-width: 1153px;
+}
+hr {
+  color: #e0e0e0;
+  margin: 20px 0px;
+}
+.menu-list {
+  float: right;
+}
+.item-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 20px 30px 0px 0px;
+}
+.menu-list .fa-bar,.fa-close {
+  display: none;
+}
+.blog-container {
+  max-width: 1152px;
+ margin: auto;
+}
+.container h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.icon-container {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  float: right;
+}
+footer h5 {
+  margin-top: 20px;
+  color: #21243d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+footer .fa {
+  font-size: 30px;
+}
+.feature-work1 {
+  display: flex;
+  max-width: 1152px;
+  gap: 30px;
+  margin: auto;
+}
+.dashboard-detail {
+  display: flex;
+  gap: 40px;
+  margin: 10px 0px;
+  align-items: center;
+}
+.card-container h4 {
+  color: #21243d;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.card-detail h3 {
+  font-weight: 700;
+}
+.card-detail h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8695a4;
+}
+.featured-works {
+  padding: 0px 150px;
+}
+/* css for home page hero section*/
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 100px;
+}
+.about h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+}
+.btn-red {
+  background: #ff6464;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.resume{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* css for recent post section of home page*/
+.recent-post {
+  background: #edf7fa;
+  padding: 0px 150px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 0px;
+}
+.header a {
+  color: #00a8cc;
+}
+.recent-post-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 35px;
+}
+.recent-post-detail {
+  background-color: white;
+  padding: 20px 15px;
+}
+.recent-post-detail h4 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #21243d;
+}
+.work-detail .dashboard-detail {
+  margin: 20px 0px;
+}
+.work-detail .dashboard-detail h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.home-page .recent-post .header p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.hero-section p {
+  padding-top: 20px;
+}
+.home-page .dashboard-detail h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #21243d;
+}
+.blog-page .dashboard-detail h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #8695a4;
+}
+.blog-page .dashboard-detail label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #21243d;
+}
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0px 16px;
+  }
+  .menu-item a{
+    color: black;
+  }
+  .hero-section {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .hero-section .about h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .hero-section .about {
+    flex-direction: column;
+    margin: 0px;
+    gap: 30px;
+    padding: 0px;
+  }
+  .person-photo {
+    order: 1;
+  }
+  .personal-detail {
+    order: 2;
+  }
+  .personal-detail h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .header p {
+    margin: auto;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .header a {
+    display: none;
+  }
+  .recent-post {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+  }
+  .recent-post-container {
+    flex-direction: column;
+  }
+  .card-container {
+    padding: 0px;
+  }
+  .feature-work1 {
+    flex-direction: column;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  .fa-close,
+  .fa-bar {
+    color: white;
+  }
+  .nav-items {
+    display: none;
+   background-color: beige;
+    flex-direction: column;
+    top: 100px;
+    position: relative;
+    gap: 50px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  .fa-close {
+    color: black;
+  }
+  .menu-item {
+    padding: 0px;
+    width: 100%;
+   /* height: 100vh;*/
+    text-align: center;
+  }
+  header .menu-icon-container {
+    display: block;
+    position: relative;
+    top: 20px;
+    right: 20px;
+  }
+  header .fa-close {
+    display: none;
+  }
+  .work-detail .container h1 {
+    padding-top: 50px;
+  }
+  .work-page .container h1 {
+    padding-bottom: 20px;
+    padding-top: 100px;
+  }
+  .blog-page .container h1 {
+    padding-top: 100px;
+  }
+  .blog-card{
+    flex-direction: column;
+  }
+  .blog-card img{
+    width: 100%;
+  }
+}
+.home-page .dashboard-detail label::after {
+  content: "|";
+  color: black;
+  padding-left: 30px;
+}
+.blog-page .dashboard-detail label::after {
+  content: "|";
+  color: black;
+  padding-left: 30px;
+}
+.blog-card{
+  display: flex;
+  gap: 150px;
+}
+.person-photo img{
+  border-radius: 50%;
+}

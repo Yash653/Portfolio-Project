@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+    font-family: "Heebo";
+}
+.container .title{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #21243d;
+  max-width: 506px;
+}
+h1 .detail{
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 500;
+}
+h2{
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: 500;
+}
+img {
+  width: 100%;
+  margin: 30px 0px;
+}
+.menu-item {
+  float: right;
+  max-width: 1153px;
+}
+.items {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #21243d;
+  margin: 27px 40px 0px 0px;
+}
+.works {
+  color: #ff6464;
+}
+.icons-container {
+  display: none;
+}
+.container {
+  padding: 80px 235px;
+  max-width: 1153px;
+}
+
+.date {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px;
+}
+.date label {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  background: #ff7c7c;
+  border-radius: 16px;
+  padding: 2px 5px;
+}
+.date h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #21243d;
+}
+ p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+footer .fa{
+    font-size: 30px;
+}
+.icon-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+footer h5{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: #21243D;
+}
+@media screen and (max-width: 640px) {
+    .container{
+        padding: 60px 16px;
+    }
+  .icons-container {
+    display: block;
+    float: right;
+  }
+  .icons-container .fa-close {
+    display: none;
+  }
+  .menu-item {
+    width: 100%;
+  }
+  .items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
