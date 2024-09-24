@@ -211,7 +211,10 @@ h5 {
   display: flex;
   background: #f7f7fa;
   gap: 40px;
+  object-fit: cover;
+  overflow: hidden;
 }
+
 .services {
   padding: 57px 0px;
 }

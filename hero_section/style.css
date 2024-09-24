@@ -698,7 +698,7 @@ video {
 }
 .dropbox-container p {
   max-width: 670px;
-  text-align: center;
+  text-align: justify;
   padding: 0px 100px;
 }
 .section-call-to-action14 .btn-green {
@@ -809,6 +809,7 @@ video {
 }
 .action-23-container {
   display: flex;
+  margin: 0px 30px;
 }
 .action-23-detail {
   padding: 100px 100px;
