@@ -12,11 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Heebo:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/work-detail.css">
     <title>Work Details</title>
 </head>
 
 <body class="work-detail">
     <header class="menu-item">
+
         
         <nav class="nav-items">
             <a href="index.html">Home</a>
@@ -29,8 +31,27 @@
             <i class="fa fa-close"></i>
         </div>
     </header>
+    <h1>Hi, Yash this Side!</h1>
+    <div class="form-container">
+    <h2>Instagram Login Page </h2>
 
-    <main class="container">
+    <form id="loginForm">
+        <!-- <label for="username">Username:</label> -->
+        <input type="text" id="username" name="username" required placeholder="Phone No,Username,email" ><br><br>
+
+        <!-- <label for="password">Password:</label> -->
+        <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+        <button type="submit " class="btn">Cancel</button>
+        <button type="submit" class="btn">Login</button>
+        <p>OR</p>
+       <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square"> log in with Facebook</i></a>
+       <p>Forget Password ?</p>
+    </form>
+</div>
+
+    <script src="app.js"></script>
+<!-- 
+ <main class="container">
         <h1 class="title">Designing Dashboards with usability in mind</h1>
         <div class="dashboard-detail">
             <div> <label for="">2020</label></div>
@@ -45,11 +66,12 @@
             velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         <img src="images/car-image.png" alt="">
         <img src="images/order.png" alt="">
-    </main>
+    </main> -->
     <footer>
         <div class="icon-container">
-            <i class="fa fa-facebook-square"></i>
-            <i class="fa fa-instagram"></i>
+           <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+         
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>  
             <i class="fa fa-twitter"></i>
             <i class="fa fa-linkedin-square"></i>
         </div>
